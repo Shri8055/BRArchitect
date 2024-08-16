@@ -196,6 +196,7 @@ input{
     margin-top: 60px;
 }
 .sec4 img{
+    width: 100%;
     display: block;
     margin: auto;
 }
