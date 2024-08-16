@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    height: 70px;
+    background-color: aliceblue;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px rgb(184, 184, 184);
+    position: relative;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 5px 15px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.logotxt{
+    font-weight: 100;
+    margin-left: 10px;
+}
+.logo:hover, a:hover{
+    background-color: rgb(201, 200, 200);
+    border-radius: 3px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+.image img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    position: relative;
+}
+.imagetxt{
+    width: 13.5%;
+    padding: 15px;
+    margin: auto;
+    margin-top: -20%;
+    color: white;
+    letter-spacing: 2px;
+}
+.imagetxt span{
+    padding: 8px 13px;
+    background-color: rgb(38, 38, 38);
+    opacity: 90%;
+    color: white;
+    border-radius: 8px;
+}
+main{
+    margin-top: 400px;
+}
+.sec1{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.sec1 p{
+    font-size: 26px;
+}
+.sec1 ul{
+    margin-top: 30px;
+    display: flex;
+}
+.sec1 li{
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+}
+.sec1 img{
+    width: 100%;
+    position: relative;
+}
+.ul2{
+    display: flex;
+    margin-top: 100%;
+}
+.sec1 .housetxt{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    margin-top: -12.8%;
+    font-size: 16px;
+    position: absolute;
+}
+.sec2{
+    width: 80%;
+    margin: auto;
+}
+.sec2 p{
+    margin-top: 3%;
+    font-size: 26px;
+}
+.sec2text p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 95%;
+    margin: auto;
+    font-weight: 600;
+    margin-top: 30px;
+    justify-content: center;
+}
+.sec2 ul{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+}
+.sec2 li{
+    display: flex;
+    display: inline-block;
+}
+.sec2-img img{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.description p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.description .Cont-Button{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(207, 207, 207);
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.Cont-Button{
+    padding: 10px 30px;
+}
+.Cont-Button:hover{
+    background-color: rgb(176, 176, 176);
+    transition: .5s;
+}
+.sec3{
+    width: 80%;
+    margin: auto;
+}
+.sec3 p{
+    margin-top: 3%;
+    font-size: 26px;
+}
+.sec3text{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.form input{
+    margin-top: 20px;
+}
+input{
+    display: block;
+    width: 98.5%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-but{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.form-but:hover{
+    border-radius: 5px;
+    transition: .5s;
+    background-color: gray;
+}
+.sec4{
+    margin-top: 60px;
+}
+.sec4 img{
+    display: block;
+    margin: auto;
+}
+footer p{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
